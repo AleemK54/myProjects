@@ -1,0 +1,59 @@
+nav{
+    order: 1;
+}
+.navlinks{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    float: right;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.navlinks li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: auto;
+    padding: 0px 20px;
+}
+.navbar a{
+    text-decoration: none;
+    position: relative;
+    color: black;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.navbar a:hover::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    border-top: 5px solid green;  
+}
+.logo{
+    width: 100px;
+    float: left;
+}
+.portfolio {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+.portfolio img{
+    text-align: center;
+    display: block;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.name{
+    text-align: center;
+    font-size: larger;
+    width: 100px;
+}
+
+

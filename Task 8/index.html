@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integers</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="flex justify-center flex-col mx-auto mt-12 bg-blue-300 w-1/2 p-3 rounded-lg">
+        <input class="w-2/3 mx-auto border-2 border-gray-300 rounded-xl p-4 m-3 outline-none" type="number" placeholder="Enter the first Integar" id="firstNo">
+        <input class="w-2/3 mx-auto border-2 border-gray-300 rounded-xl p-4 m-3 outline-none" type="number" placeholder="Enter the second Integar" id="secondNo">
+        <div class="flex justify-center mx-auto w-1/5 bg-red-300 p-3 rounded-lg mt-3">
+            <button style="color: white;" onclick="compareVal()" value="Compare">Compare</button>
+        </div>
+    </div>
+
+    <textarea class="flex justify-center mx-auto mt-5 border-2 border-gray-300 rounded-lg w-1/3 p-3 text-center" name="textbox" id="result" placeholder="Result" readonly></textarea>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

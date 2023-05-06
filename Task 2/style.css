@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    box-sizing: border-box;
+    display:  grid;
+    height: 100vh;
+    grid-template-columns: 55% 45%;
+    grid-template-areas:  "pic login";
+}
+.left{
+    grid-area: pic;
+}
+.left .pic{
+    height: 100%;
+    width:  100%;
+}
+.right{
+    height: 96vh;
+    grid-area: login;
+    background-color: black;
+}
+.container{
+    margin-top:  30%;
+}
+.right .title{
+    font-size: 60px;
+    padding:  30px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.right .msg{
+    color: white;
+    font-size:  25px;
+    margin-top:  0;
+    padding:  30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.right .signbtn{
+    display: block;
+    margin-left:  30px;
+    width: 350px;
+    height:  50px;
+    border-radius:  50px;
+    outline:  none;
+    border:  none;
+    background-color:  #1DA1F2;
+    font-family: 
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: medium;
+    margin-bottom: 20px;
+}
+.right .logbtn{
+    margin-left: 30px;
+    width: 350px;
+    height:  50px;
+    border-radius:  50px;
+    outline:  none;
+    border:  none;
+    background-color:  black;
+    color: #1DA1F2 ;
+    border:  1px solid #1DA1F2;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+}
+.bird{
+    height: 40px;
+    width: auto;
+    margin-bottom: 0%;
+    margin-left:  30px;
+}
+.foot{
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+}
+.foot a,p{
+    padding-top: 20px;
+    text-decoration: none;
+    color:  rgb(110, 118, 125);
+    padding-right:  16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    padding-bottom: 20px;
+}

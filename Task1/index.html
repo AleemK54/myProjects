@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar"> 
+
+         <img  class="logo" src="fb.png" alt="facebook">
+
+        <form action="action_page.php" class="login_form">
+            <div class="email">
+                <div class="font">Email or Phone</div>
+                <input type="text"  name="email">
+            </div>
+            <div class="password">
+                <div class="font">Password</div>
+                <input type="password" name="password">   
+            </div>
+            <button class="loginbtn"> Log In</button>
+        </form>
+
+    </nav>
+
+    <section>
+
+        <div class="logo_body">
+            <p class="font1">Facebook helps you connect and share with the  <br> people in your life.</p>
+            <img class="logobody" src="facebook.png" alt="fbbdy">
+        </div>
+
+        <div class="signup_body">
+
+            <p class="crt_acc">Create an account</p>
+            <p class="ez">It's quick and easy</p>
+
+            <form action="action_page.php" class="signup_form">
+                <div>
+                <input class="fname" type="text" name="fname" placeholder="First Name">
+                <input class="surname" type="text" name="surname" placeholder="Surname">
+                <input class="email2" type="text" name="phoneoremail" placeholder="Mobile number or email address">
+                <input class="password2" type="password" name="pass" placeholder="New password">             
+                </div>
+                <div class="birthday"> Birthday</div>
+                <div class="birthdate">
+                    <span>
+                        <div class="day"></div>
+                        <select name="day" id="day"></select>
+                    </span>
+                    <span>
+                      <div class="month"></div>
+                        <select name="month" id="month"></select>
+                    </span>
+                    <span>
+                        <div class="year"></div>
+                        <select name="year" id="year"></select>
+                    </span>
+                </div>
+                <input type="radio" name="gender" value="female">
+                <input type="radio" name="gender" value="male">
+
+                <p class="font2">Female</p>
+                <p class="font3">Male</p>
+
+                <p class="agree">
+                    By clicking Sign Up, you agree to our <a href="#">Terms, Data Policy and Cookies Policy.</a> 
+                    You may receive SMS Notifications from us and can opt out any time.
+                </p>
+
+                <button class="sgnbtn">Sign Up</button>
+
+            </form>
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
